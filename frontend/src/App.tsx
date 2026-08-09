@@ -27,8 +27,7 @@ import {
   ArrowRight,
   Sparkles,
   Database,
-  BarChart3,
-  Layers,
+  
   ChevronRight
 } from 'lucide-react';
 import { api } from './utils/api.js';
