@@ -832,7 +832,7 @@ export default function App() {
             </button>
           </form>
 
-          <div style={{ marginTop: '16px', textCenter: 'center' }}>
+        <div style={{ marginTop: '16px', textAlign: 'center' }}>
             <button className="btn btn-secondary btn-full" onClick={() => setShowLandingPage(true)}>
               ← Back to Product Showcase
             </button>
