@@ -174,8 +174,8 @@ npm run dev
 
 | Role | Email | Password | Access Level |
 | :--- | :--- | :--- | :--- |
-| **System Administrator** | `admin@nexuserp.com` | `admin123` | Full ERP & CRM Access |
-| **Sales Representative** | `sales@nexuserp.com` | `sales123` | Customer CRM & Sales Dispatches |
+| **System Administrator** | `admin@example.com` | `admin123` | Full ERP & CRM Access |
+| **Sales Representative** | `sales@example.com` | `sales123` | Customer CRM & Sales Dispatches |
 
 ---
 
