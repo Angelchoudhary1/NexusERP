@@ -1424,6 +1424,7 @@
   display: flex;
   flex-direction: column;
   max-height: 90vh;
+  overflow: hidden; /* FIX: keeps tall forms from overflowing past 90vh so footer/submit stays visible */
 }
 
 .modal-header {
@@ -1432,6 +1433,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .modal-header h3 {
@@ -1460,6 +1462,7 @@
   padding: 24px;
   overflow-y: auto;
   flex: 1;
+  min-height: 0; /* FIX: allows flex child to actually shrink and scroll instead of forcing the parent to grow past max-height */
 }
 
 .modal-footer {
@@ -1468,6 +1471,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 /* Drawer Detail Component */
